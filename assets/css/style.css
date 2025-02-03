@@ -270,6 +270,11 @@ body {
   font-size: var(--fs-3);
 }
 
+.logo1 img {
+  width: 100px; /* Adjust this value as needed */
+  height: auto;
+}
+
 .nav-open-btn {
   color: #067f06;
   font-size: 32px;

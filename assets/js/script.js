@@ -22,9 +22,9 @@ for (let i = 0; i < elemArr.length; i++) {
 
 /** Typing text effect */
 
-var typed = new typed ((".multiple-text"),
+var typed = new Typed ((".multiple-text"),
 {
-    strings: ["SUBTERAN SAFETY AFRICA LIMITED", "THE BEST IN SAFETY"],
+    strings: ["Crafting project specific solutions with expertise."],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
