@@ -465,7 +465,7 @@ body {
   transition: var(--transition-1);
 }
 
-.service-card:hover .card-icon { background-color: var(--winter-sky); }
+.service-card:hover .card-icon { background-color: #067f06; }
 
 .service-card .card-icon ion-icon {
   font-size: 5rem;
