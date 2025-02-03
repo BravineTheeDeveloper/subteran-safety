@@ -22,60 +22,155 @@
 
     <header class="header active">
         <div class="container">
-            <div class="overlay"></div>
 
-            <a href="#" class="logo">
-                <h1 class="logo">Subteran</h1>
+            <div class="overlay" data-overlay></div>
+      
+            <a href="#">
+              <h1 class="logo">Subteran Safety</h1>
             </a>
+      
+            <nav class="navbar" data-navbar>
+      
+              <div class="navbar-top">
+                <a href="#" class="logo">Subteran Safety</a>
+      
+                <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
+              </div>
+      
+              <ul class="navbar-list">
+      
+                <li class="navbar-item">
+                  <a href="#home" class="navbar-link" style="color: #067f06;">Home</a>
+                </li>
+      
+                <li class="navbar-item">
+                  <a href="#about" class="navbar-link" style="color: #067f06;"  data-navbar-link>About</a>
+                </li>
+      
+                <li class="navbar-item">
+                  <a href="#services" class="navbar-link" style="color: #067f06;" data-navbar-link>Services</a>
+                </li>
+      
+                <li class="navbar-item">
+                  <a href="#features" class="navbar-link" style="color: #067f06;" data-navbar-link>Features</a>
+                </li>
+      
+                <li class="navbar-item">
+                  <a href="#blog" class="navbar-link" style="color: #067f06;" data-navbar-link>Blog</a>
+                </li>
+      
+                <li class="navbar-item">
+                  <a href="#" class="navbar-link" style="color: #067f06;" data-navbar-link>Contact Us</a>
+                </li>
+      
+              </ul>
+      
+            </nav>
+      
+            <a href="#" class="btn">
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+      
+              <span>Get A Quote</span>
+            </a>
+      
+            <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+      
+          </div>
+    </header>
 
-            <nav class="navbar active">
-                <div class="navbar-top">
-                    <a href="#" class="logo">Subteran</a>
-                    <button class="nav-close-btn" aria-label="Close Menu">
-                        <ion-icon name="close-outline"></ion-icon>
-                    </button>
+
+    <main>
+        <article>
+            
+            <section class="hero" id="home">
+                <div class="container">
+        
+                  <div class="hero-content">
+        
+                    <p class="hero-subtitle" style="color: #a1c59b;">Your Saftey, Our Priority</p>
+        
+                    <h2 class="h2 hero-title">We Design Interfaces That Users Love</h2>
+        
+                    <p class="hero-text">
+                      Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac
+                      at purus.
+                    </p>
+        
+                    <button class="btn">Learn More</button>
+        
+                  </div>
+        
+                  <figure class="hero-banner">
+                    <img src="./assets/images/hero-section.png" width="1094" height="929" loading="lazy" alt="hero-banner"
+                      class="w-100 banner-animation">
+                  </figure>
+        
+                </div>
+            </section>
+
+
+
+            <!-- 
+             - #ABOUT
+             -->
+
+            <section class="section about" id="about">
+                <div class="container">
+
+                <figure class="about-banner">
+                    <img src="./assets/images/about-us.png" width="700" height="532" loading="lazy" alt="about banner"
+                    class="w-100 banner-animation">
+                </figure>
+
+                <div class="about-content">
+
+                    <h2 class="h2 section-title underline">Why Our Company</h2>
+
+                    <p class="about-text">
+                    In dictum aliquam turpis lacinia iaculis. Fusce vel malesuada magna. Nulla vel maximus risus. Donec
+                    volutpat metus
+                    lacinia risus accumsan, ac bibendum libero efficitur. Pellentesque nec nisi sit amet magna tempus
+                    hendrerit ut a odio.
+                    </p>
+
+                    <p class="about-text">
+                    Praesent rhoncus commodo tortor, id pulvinar nisl blandit at. Nulla facilisi. Quisque turpis ante,
+                    vehicula condimentum
+                    arcu.
+                    </p>
+
+                    <ul class="stats-list">
+
+                    <li class="stats-card">
+                        <p class="h3 stats-title">1200</p>
+
+                        <p class="stats-text">Satisfied Clients</p>
+                    </li>
+
+                    <li class="stats-card">
+                        <p class="h3 stats-title">200</p>
+
+                        <p class="stats-text">Project Lunched</p>
+                    </li>
+
+                    <li class="stats-card">
+                        <p class="h3 stats-title">5</p>
+
+                        <p class="stats-text">Years Completed</p>
+                    </li>
+
+                    </ul>
+
                 </div>
 
-                <ul class="navbar-list">
-                    <li class="navbar-item">
-                        <a href="#home" class="navbar-link" data-navbar-link>Home</a>
-                      </li>
-            
-                      <li class="navbar-item">
-                        <a href="#about" class="navbar-link" data-navbar-link>About</a>
-                      </li>
-            
-                      <li class="navbar-item">
-                        <a href="#services" class="navbar-link" data-navbar-link>Services</a>
-                      </li>
-            
-                      <li class="navbar-item">
-                        <a href="#features" class="navbar-link" data-navbar-link>Features</a>
-                      </li>
-            
-                      <li class="navbar-item">
-                        <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
-                      </li>
-            
-                      <li class="navbar-item">
-                        <a href="#" class="navbar-link" data-navbar-link>Contact Us</a>
-                      </li>
-                </ul>
-            </nav>
-
-            <a href="#" class="btn">
-                <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-        
-                <span>Get A Quote</span>
-              </a>
-        
-              <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-                <ion-icon name="menu-outline"></ion-icon>
-              </button>
-
-
-        </div>
-    </header>
+                </div>
+            </section>
+        </article>
+    </main>
 
 
 
