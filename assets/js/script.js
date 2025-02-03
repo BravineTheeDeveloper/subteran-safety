@@ -20,6 +20,17 @@ for (let i = 0; i < elemArr.length; i++) {
   });
 }
 
+/** Typing text effect */
+
+var typed = new typed ((".multiple-text"),
+{
+    strings: ["SUBTERAN SAFETY AFRICA LIMITED", "THE BEST IN SAFETY"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+})
+
 
 /**
  * toggle navbar & overlay when click any navbar-link
