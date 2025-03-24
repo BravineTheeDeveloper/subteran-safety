@@ -393,8 +393,9 @@ body {
   background-image: url("../images/hero-bg-bottom.png"),
     url("../images/hero-bg.png"), var(--gradient-1);
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: -280px bottom, center, center;
-  background-size: auto, cover, auto;
+  background-position: bottom, center, center;
+  right: -300;
+  background-size: auto, cover;
   padding-block-start: 120px;
   padding-block-end: var(--section-padding);
 }
@@ -423,9 +424,21 @@ body {
 }
 
 .hero-banner {
-  width: 100%;
+  width: 130%;
   height: 600px;
   overflow: hidden;
+  border-radius: 50% 100%;
+  mix-blend-mode: overlay;
+  box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.2);
+  transform: translateX(-780px);
+}
+
+@media screen and (max-width: 425px) {
+  .hero-banner {
+    width: 150%;
+    height: 500px;
+    transform: translateX(-800px);
+  }
 }
 
 .hero-banner img {
